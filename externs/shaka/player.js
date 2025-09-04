@@ -2255,11 +2255,6 @@ shaka.extern.NetworkingConfiguration;
  *    A callback called for each cue after it is parsed, but right before it
  *    is appended to the presentation.
  *    Gives a chance for client-side editing of cue text, cue timing, etc.
-<<<<<<< HEAD
- * @property {boolean} dispatchAllEmsgBoxes
- *   If true, all emsg boxes are parsed and dispatched.
- *   <br>
- *   Defaults to <code>false</code>.
  * @property {boolean} useSourceElements
  *   If true, uses <source> element. Otherwise,
  *   sets the mediaSource url blob to src attribute.
@@ -2277,8 +2272,6 @@ shaka.extern.NetworkingConfiguration;
  *   smaller than existing value.
  *   <br>
  *   Defaults to <code>true</code>.
-=======
->>>>>>> parent of cb66f471a (perf: Improve performance when parsing EMSG (#7557))
  * @exportDoc
  */
 shaka.extern.MediaSourceConfiguration;
