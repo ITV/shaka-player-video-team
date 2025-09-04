@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.16.1](https://github.com/shaka-project/shaka-player/compare/v4.16.0...v4.16.1) (2025-08-26)
+
+* Reverts https://github.com/shaka-project/shaka-player/commit/cb66f471a2c4fe1bf3341b6f8af36729f2cbbac7
+
 ## [4.16.0](https://github.com/shaka-project/shaka-player/compare/v4.15.0...v4.16.0) (2025-08-26)
 
 
