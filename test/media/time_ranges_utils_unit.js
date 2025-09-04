@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+// cspell:ignore customdatascheme
+
 describe('TimeRangesUtils', () => {
   const TimeRangesUtils = shaka.media.TimeRangesUtils;
 
