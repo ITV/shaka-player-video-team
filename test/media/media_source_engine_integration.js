@@ -732,7 +732,6 @@ describe('MediaSourceEngine', () => {
 
     expect(onMetadata).toHaveBeenCalled();
   });
-<<<<<<< HEAD
 
   describe('embedded emsg boxes', () => {
     // V0 box format
@@ -956,6 +955,4 @@ describe('MediaSourceEngine', () => {
       expect(emsgInfo).toEqual(emsgObj);
     });
   });
-=======
->>>>>>> parent of cb66f471a (perf: Improve performance when parsing EMSG (#7557))
 });
