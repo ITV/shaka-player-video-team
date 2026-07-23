@@ -23,14 +23,14 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: shaka-project/shaka-github-tools
           persist-credentials: false
 
       # TODO: revert to micnncim and new release after landing
       #       https://github.com/micnncim/action-label-syncer/pull/68
-      - uses: joeyparrish/action-label-syncer@v1.8.0
+      - uses: joeyparrish/action-label-syncer@02c7463053a7aef33ef8b1184e43a07432bab957 # v1.8.0
         with:
           dry_run: ${{ github.event.inputs.dry_run || false }}
           prune: true
