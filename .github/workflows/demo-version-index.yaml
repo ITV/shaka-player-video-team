@@ -25,13 +25,13 @@ jobs:
   appspot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           # We need a list of all tags for this, so fetch the entire history.
           fetch-depth: 0
           persist-credentials: false
 
-      - uses: google-github-actions/auth@v2
+      - uses: google-github-actions/auth@c200f3691d83b41bf9bbd8638997a462592937ed # v2
         with:
           credentials_json: '${{ secrets.APPENGINE_DEPLOY_KEY }}'
 
@@ -40,7 +40,7 @@ jobs:
           python3 app-engine/demo-version-index/generate.py
           cp app-engine/gcloudignore app-engine/demo-version-index/.gcloudignore
 
-      - uses: google-github-actions/deploy-appengine@v2
+      - uses: google-github-actions/deploy-appengine@a343979004148afb93c94c712b467e8e9f01b06b # v2
         with:
           project_id: shaka-player-demo
           version: index
